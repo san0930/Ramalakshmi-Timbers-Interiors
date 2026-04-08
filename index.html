@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramalakshmi Timbers & Interiors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============== HEADER ============== -->
+<header class="header">
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Ramalakshmi Timbers & Interiors Logo" class="logo-image">
+                <span class="logo-text">Ramalakshmi Timbers & Interiors</span>
+            </div>
+            <nav class="nav">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#gallery" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="btn-border" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Inquire</button>
+        </div>
+    </div>
+</header>
+
+<!-- ============== HERO SECTION ============== -->
+<section class="hero">
+    <div class="hero-container">
+        <!-- Left Content -->
+        <div class="hero-left">
+            <h1 class="hero-title">Bespoke Timber Architecture</h1>
+            <p class="hero-subtitle">Handcrafted interiors for discerning collectors. Sustainability meets luxury in every detail.</p>
+            
+            <!-- Inquiry Bar -->
+            <div class="inquiry-bar">
+                <input type="text" placeholder="Full Name" class="inquiry-input" required>
+                <input type="email" placeholder="Email" class="inquiry-input" required>
+                <button class="btn-border-sm">Send Brief</button>
+            </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="hero-right">
+            <img class="hero-image" src="images/123.jpeg" alt="Bespoke Timber Architecture">
+        </div>
+    </div>
+</section>
+
+<!-- ============== SERVICES SECTION ============== -->
+<section id="services" class="services">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Custom Furniture">
+                </div>
+                <h3 class="service-title">Custom Furniture</h3>
+                <p class="service-desc">Bespoke pieces designed and crafted to your exact specifications. From statement dining tables to architectural shelving systems.</p>
+                <ul class="service-list">
+                    <li>Residential Furniture</li>
+                    <li>Commercial Installations</li>
+                    <li>Modular Systems</li>
+                </ul>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Architectural Doors">
+                </div>
+                <h3 class="service-title">Architectural Doors</h3>
+                <p class="service-desc">Precision-engineered timber doors that define the threshold between spaces. Contemporary designs with heritage craft.</p>
+                <ul class="service-list">
+                    <li>Solid Wood Doors</li>
+                    <li>Sliding Systems</li>
+                    <li>Pivot Installations</li>
+                </ul>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/wood carving.jpg" alt="Wood Carving">
+                </div>
+                <h3 class="service-title">Wood Carving</h3>
+                <p class="service-desc">Intricate hand-carved details elevate interiors to gallery-quality installations. Artistic mastery meets structural integrity.</p>
+                <ul class="service-list">
+                    <li>Relief Panels</li>
+                    <li>Decorative Elements</li>
+                    <li>Sculptural Integration</li>
+                </ul>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Heritage Restoration">
+                </div>
+                <h3 class="service-title">Heritage Restoration</h3>
+                <p class="service-desc">Respectful restoration of period pieces and antique timber. Preserving craftsmanship while meeting modern standards.</p>
+                <ul class="service-list">
+                    <li>Period Authenticity</li>
+                    <li>Conservation Methods</li>
+                    <li>Structural Reinforcement</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============== GALLERY SECTION ============== -->
+<section id="gallery" class="gallery">
+    <div class="container">
+        <h2 class="section-title">Recent Projects</h2>
+        
+        <div class="gallery-grid">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item" data-index="0">
+                <img class="gallery-image" src="images/our work/our work 1.png" alt="Modern Minimalist Study">
+                <div class="gallery-overlay">
+                    <p class="gallery-title">Modern Minimalist Study</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item" data-index="1">
+                <img class="gallery-image" src="images/our work/our work 2.png" alt="Heritage Door Installation">
+                <div class="gallery-overlay">
+                    <p class="gallery-title">Heritage Door Installation</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item" data-index="2">
+                <img class="gallery-image" src="images/our work/our work 3.png" alt="Sculptural Wall Panel">
+                <div class="gallery-overlay">
+                    <p class="gallery-title">Sculptural Wall Panel</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item" data-index="3">
+                <img class="gallery-image" src="images/our work/our work 4.png" alt="Custom Dining Suite">
+                <div class="gallery-overlay">
+                    <p class="gallery-title">Custom Dining Suite</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item" data-index="4">
+                <img class="gallery-image" src="images/our work/our work 5.png" alt="Library Architecture">
+                <div class="gallery-overlay">
+                    <p class="gallery-title">Library Architecture</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item" data-index="5">
+                <img class="gallery-image" src="images/our work/our work 6.png" alt="Sliding Door System">
+                <div class="gallery-overlay">
+                    <p class="gallery-title">Sliding Door System</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============== LIGHTBOX MODAL ============== -->
+<div id="lightbox" class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <div class="lightbox-content">
+        <img id="lightbox-image" src="" alt="Project">
+        <p id="lightbox-title"></p>
+    </div>
+</div>
+
+<!-- ============== CONTACT SECTION ============== -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-grid">
+            <!-- Left: Form -->
+            <div class="contact-form">
+                <h2 class="section-title">Begin Your Project</h2>
+                <form class="form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="project">Project Type</label>
+                        <select id="project" name="project" required>
+                            <option value="">Select...</option>
+                            <option value="custom-furniture">Custom Furniture</option>
+                            <option value="architectural-doors">Architectural Doors</option>
+                            <option value="wood-carving">Wood Carving</option>
+                            <option value="heritage-restoration">Heritage Restoration</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Inquiry</button>
+                </form>
+            </div>
+
+            <!-- Right: Contact Info -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3 class="contact-label">Address</h3>
+                    <p>Lal Bahadur Shastri Street<br>Thiruvanmiyur, Chennai - 41<br>India</p>
+                </div>
+                <div class="contact-item">
+                    <h3 class="contact-label">Phone</h3>
+                    <p><a href="tel:+919840417122">+91 98404171221</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3 class="contact-label">Email</h3>
+                    <p><a href="mailto:hello@ramalakshmi.com">malaiyandimuthu@gmail.com</a></p>
+                </div>
+                <a href="https://wa.me/9840417122" class="btn-whatsapp" target="_blank">
+                    <span>WhatsApp</span>
+                </a>
+                
+                <!-- Responsive Map -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.504447908627!2d80.24892!3d12.985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f8c4a4a4a4d%3A0x4a4a4a4a4a4a4a4a!2sLal%20Bahadur%20Shastri%20Street%2C%20Thiruvanmiyur%2C%20Chennai%20600041!5e0!3m2!1sen!2sin!4v1234567890123" width="100%" height="300" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 Ramalakshmi Timbers & Interiors. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
